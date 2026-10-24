@@ -1,0 +1,10 @@
+[
+  {"prompt": "Hi! Could you please tell me what is the capital of France? Thanks in advance!", "expect": ["paris"]},
+  {"prompt": "Please extract the email address from this text: 'Contact Priya at priya.r@example.com before Friday.'", "expect": ["priya.r@example.com"]},
+  {"prompt": "Can you convert 'the quick brown fox' to Title Case?", "expect": ["The Quick Brown Fox"]},
+  {"prompt": "What is 17*23?", "expect": ["391"]},
+  {"prompt": "If a train leaves at 3:15 pm and travels for 2 hours 50 minutes, what time does it arrive? Show your reasoning.", "expect": ["6:05"]},
+  {"prompt": "1. What is the capital of Japan?\n2. Convert 'hello world' to uppercase.\n3. Explain why the sky is blue, step by step.", "expect": ["tokyo", "HELLO WORLD"]},
+  {"prompt": "Explain why the halting problem is undecidable, step by step.", "expect": []},
+  {"prompt": "Design a simple database schema for a library and explain the trade-offs.", "expect": []}
+]

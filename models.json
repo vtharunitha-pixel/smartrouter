@@ -1,0 +1,32 @@
+{
+  "_note": "Prices are PLACEHOLDERS in dollars per million tokens. Replace them with your providers' real prices. A tier is only called for real when live is true; otherwise it runs in demo (mock) mode.",
+  "tiers": {
+    "local": {
+      "label": "Local small model (for example served with Ollama)",
+      "live": false,
+      "base_url": "http://localhost:11434/v1",
+      "model": "your-local-model-name",
+      "api_key_env": "",
+      "price_in_per_m": 0.0,
+      "price_out_per_m": 0.0
+    },
+    "mid": {
+      "label": "Mid-cost cloud model",
+      "live": false,
+      "base_url": "https://your-provider.example/v1",
+      "model": "your-mid-model-name",
+      "api_key_env": "MID_API_KEY",
+      "price_in_per_m": 0.2,
+      "price_out_per_m": 0.6
+    },
+    "strong": {
+      "label": "Strong, expensive model",
+      "live": false,
+      "base_url": "https://your-provider.example/v1",
+      "model": "your-strong-model-name",
+      "api_key_env": "STRONG_API_KEY",
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 6.0
+    }
+  }
+}
